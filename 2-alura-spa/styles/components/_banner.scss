@@ -1,0 +1,39 @@
+@import '../abstract/variaveis';
+
+.banner {
+    background: url(../imagens/banner.jpeg) 27% center no-repeat;
+    min-height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: .9;
+    .inner-banner {
+        padding: 3rem;
+        background-color: $cor-terciaria;
+        border-radius: 45px;
+        h1 {
+            font-size: $tamanho-do-texto;
+            color: $cor-primaria;
+        }
+        h2 {
+            font-size: $tamanho-do-texto / 2;
+            color: $cor-secundaria;
+        }
+    }
+}
+
+/*
+As variáveis no Sass suportam o conceito de ESCOPO.
+Nesse caso, mesmo que tenhamos uma variável definida, podemos mudar dentro de um determinado escopo o valor dela. Por exemplo, se dentro do h1 tivéssemos o código abaixo, a cor do nosso texto seria vermelho e não a cor que definimos em nossa partial de variáveis. No entanto, se o h2 tivesse a mesma $cor-primaria, esta não mudaria, pois a cor vermelha está apenas dentro do escopo do h1:
+h1 {
+    font-size: $tamanho-do-texto;
+    $cor-primaria: red;
+    color: $cor-primaria;
+}
+h2 {
+    font-size: $tamanho-do-texto / 2;
+    color: $cor-primaria;
+}
+
+*/
