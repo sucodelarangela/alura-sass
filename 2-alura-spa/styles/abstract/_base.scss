@@ -1,0 +1,10 @@
+/*
+Na pasta abstract mantém-se tudo relacionado à aplicação, como variáveis, fontes e tudo referente à estrutura geral.
+Por convenção, todos os arquivos que iniciam com _ são conhecidos como partials, ou partições. Para usar essas partials, usamos @import 'caminho-do-arquivo' no nosso scss principal.
+*/
+
+@import './variaveis';
+
+html, body {
+    font-family: $fonte;
+}

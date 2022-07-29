@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/*
+Na pasta abstract mantém-se tudo relacionado à aplicação, como variáveis, fontes e tudo referente à estrutura geral.
+Por convenção, todos os arquivos que iniciam com _ são conhecidos como partials, ou partições. Ao utilizar o _ na frente do nome, indicamos ao compilador que não queremos que ele gere um arquivo css correspondente. Para usar essas partials, usamos @import 'caminho-do-arquivo' no nosso scss principal.
+*/
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    padding: 1rem;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: #6a8caf;
+}
+nav ul li a:hover {
+    border-bottom: 2px solid #75b79e;
+} /*# sourceMappingURL=style.css.map */
