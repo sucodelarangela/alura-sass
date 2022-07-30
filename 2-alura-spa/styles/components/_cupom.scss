@@ -1,0 +1,14 @@
+@import '../abstract/variaveis';
+
+#cupom {
+    background-color: $cor-terciaria;
+    padding: 4rem;
+    text-align: center;
+    .texto {
+        color: $cor-primaria;
+        h2 {
+            margin: 2rem;
+            font-size: $tamanho-do-texto / 1.7;
+        }
+    }
+}
