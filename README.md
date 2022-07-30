@@ -15,6 +15,8 @@ Repositório com os códigos desenvolvidos ao longo do curso de Sass/Scss da [Al
 > **Descrição:** Estilize suas aplicações web com Sass; Aprenda a dar super poderes ao CSS; Modularize suas folhas de estilo sem perder a performance da aplicação; Aplique o princípio de software DRY em suas folhas de estilos; Crie funções, validações, variáveis em seus estilos.
 >
 > **Plataforma e conteúdo do curso:** Acesse a página do curso na [Alura](https://www.alura.com.br/curso-online-sass-css-sintaticamente-espetacular) para ver todos os conteúdos abordados.
+>
+> **Certificado emitido:** [Clique para visualizar o certificado](https://cursos.alura.com.br/certificate/ce3e9dac-1160-4b59-a3bd-164c6381b3fd)
 
 <br>
 
