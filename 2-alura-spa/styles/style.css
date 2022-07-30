@@ -118,4 +118,90 @@ h2 {
 #cupom .texto h2 {
   margin: 2rem;
   font-size: 1.7647058824rem;
+}
+#cupom .input {
+  margin: 0 auto;
+  width: 575px;
+  border-radius: 20px;
+  border: 4px solid white;
+  background-color: white;
+}
+#cupom .input input {
+  border-radius: 20px;
+  height: 40px;
+  border: none;
+  width: 540px;
+  outline: none;
+  text-align: center;
+  font-size: 26px;
+}
+#cupom .input:hover, #cupom .input:focus-within {
+  box-shadow: 1px 1px 8px 1px #6A8CAF;
+  outline: none;
+}
+#cupom button {
+  text-transform: uppercase;
+  margin-top: 0.75rem;
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  background-color: #6A8CAF;
+  color: #EEF9BF;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px solid #75B79E;
+  border-radius: 40px;
+}
+#cupom button:hover {
+  background-color: #75B79E;
+  border-color: #6A8CAF;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.5rem;
+  border-top: 2px solid #6A8CAF;
+  margin-top: 1rem;
+  padding: 1.2rem;
+  background: linear-gradient(to left, #6A8CAF, #75B79E, #EEF9BF, #6A8CAF);
+}
+footer i {
+  color: tomato;
+}
+
+#bem-estar {
+  padding: 4rem;
+}
+#bem-estar .flor-e-pedra {
+  display: flex;
+  justify-content: center;
+}
+#bem-estar .texto {
+  text-align: center;
+  width: 575px;
+  margin: 0 auto;
+}
+#bem-estar .texto h3 {
+  font-size: 1.2rem;
+  color: #75B79E;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin: 1rem;
+}
+#bem-estar .texto h4 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  color: #6A8CAF;
+}
+#bem-estar .texto p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #6A8CAF;
+  line-height: 1.25rem;
 }/*# sourceMappingURL=style.css.map */
